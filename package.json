@@ -1,0 +1,45 @@
+{
+  "name": "@lxgicstudios/openapi-mock",
+  "version": "1.0.0",
+  "description": "Spin up a mock HTTP server from any OpenAPI 3.x JSON spec. Auto-generates realistic responses, validates requests, simulates latency. Zero dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "openapi-mock": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openapi",
+    "mock",
+    "server",
+    "api",
+    "swagger",
+    "rest",
+    "http",
+    "testing",
+    "stub",
+    "fake",
+    "cli",
+    "schema",
+    "validate",
+    "development"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/openapi-mock"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
