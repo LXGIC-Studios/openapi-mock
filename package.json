@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxgicstudios/openapi-mock"
+    "url": "git+https://github.com/LXGIC-Studios/openapi-mock.git"
   },
   "engines": {
     "node": ">=18"
@@ -41,5 +41,13 @@
   ],
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "homepage": "https://github.com/LXGIC-Studios/openapi-mock#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/openapi-mock/issues"
   }
 }
